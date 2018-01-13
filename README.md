@@ -17,12 +17,12 @@ docker run \
   -e DAEMON_URL=http://user:pass@host:port \
   -e COIN=Bitcoin \
   -p 50002:50002 \
-  lukechilds/electrumx
+  xSke/electrumx
 ```
 
 If there's an SSL certificate/key (`electrumx.crt`/`electrumx.key`) in the `/data` volume it'll be used. If not, one will be generated for you.
 
-You can view all ElectrumX environment variables here: https://github.com/kyuupichan/electrumx/blob/master/docs/ENVIRONMENT.rst
+You can view all ElectrumX environment variables here: https://github.com/xSke/electrumx/blob/master/docs/ENVIRONMENT.rst
 
 ### TCP Port
 
@@ -38,7 +38,7 @@ docker run \
   -e DAEMON_URL=http://user:pass@host:port \
   -e COIN=Bitcoin \
   -p 50002:50002 \
-  lukechilds/electrumx:v1.2.1
+  xSke/electrumx:v1.2.1
 ```
 
 ## License
